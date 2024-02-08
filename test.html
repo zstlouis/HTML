@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1 {
+            background-color: blue;
+            color: white;
+        }
+
+        .redbackground {
+            background-color: red;
+        }
+
+        #changeColor {
+            background-color: green;
+            color: red;
+        }
+
+        /* child selector */
+        div>p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Some Text</h1>
+    <h2 class="redbackground">Some more text</h2>
+    <h1 id="changeColor">More Text</h1>
+
+    <div>
+        <p>Some paragraph</p>
+        <section>
+            <p>Another one</p>
+        </section>
+    </div>
+    <form>
+        <input type="text" placeholder="this is some text" />
+        <br />
+        <input type="date" />
+        <br />
+        <input type="password" />
+        <br />
+        <label>This is a label</label>
+        <input type="checkbox" />
+        <br />
+        <select>
+            <option>red</option>
+            <option>Blue</option>
+            <option>Green</option>
+        </select>
+
+    </form>
+
+    <iframe src="https://www.youtube.com/watch?v=eWHpmsmsnC8&t=785s" width="50%"></iframe>
+    <br />
+    <img src="https://images.pexels.com/photos/236047/pexels-photo-236047.jpeg?cs=srgb&dl=clouds-cloudy-countryside-236047.jpg&fm=jpg"
+        width="100px" alt="some image" />
+    <img src="./clouds.jpg" />
+
+    <ol>
+        <li>Apple</li>
+        <li>Orange</li>
+    </ol>
+
+    <ul>
+        <li>Grape</li>
+        <li>Lime</li>
+    </ul>
+
+    <table border="1" width="100" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>Population</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">Canada</td>
+                <td align="center">100</td>
+            </tr>
+            <tr>
+                <td align="center">USA</td>
+                <td align="center">200</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+
+
+
+</body>
+
+</html>
